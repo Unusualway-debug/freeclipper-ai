@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>FreeClipper AI — Automated Viral Shorts & Clipping SaaS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; background: #060911; color: #f8fafc; }
+    h1, h2, h3, .brand { font-family: 'Space Grotesk', sans-serif; }
+    .card { background: rgba(15, 23, 42, 0.78); border: 1px solid rgba(251, 191, 36, 0.22); backdrop-filter: blur(12px); }
+    .cta { background: linear-gradient(135deg, #f59e0b, #ea580c); box-shadow: 0 8px 28px rgba(245, 158, 11, 0.32); }
+    .cta:hover { filter: brightness(1.08); transform: translateY(-1px); }
+  </style>
+</head>
+<body class="min-h-screen">
+  <nav class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between border-b border-white/10">
+    <div class="flex items-center gap-2.5">
+      <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-amber-400 to-orange-600 flex items-center justify-center font-bold text-black">FC</div>
+      <span class="brand text-xl font-bold">FreeClipper <span class="text-amber-400">AI</span></span>
+    </div>
+    <div class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+      <a href="#features" class="hover:text-white">Features</a>
+      <a href="#pricing" class="hover:text-white">Pricing</a>
+      <a href="#checkout" class="px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white font-semibold">Get Access</a>
+    </div>
+  </nav>
+
+  <section class="max-w-5xl mx-auto px-6 pt-16 pb-12 text-center">
+    <div class="inline-block px-3.5 py-1 rounded-full bg-amber-500/15 border border-amber-400/35 text-amber-300 text-xs font-semibold mb-5">
+      AI Clipping Studio • Hinglish Captions • Playwright Auto-Upload
+    </div>
+    <h1 class="text-4xl md:text-6xl font-bold leading-tight">
+      1 Long Video se <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">10 Viral Shorts</span><br/>100% Automated
+    </h1>
+    <p class="mt-5 text-slate-400 max-w-2xl mx-auto text-base md:text-lg">
+      Podcasters, gaming streamers aur agencies ke liye AI clipping engine. Viral hooks detect karo, vertical 9:16 crop + Hinglish captions lagao aur auto-post karo.
+    </p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a href="#pricing" class="cta px-7 py-3.5 rounded-xl font-bold text-black transition">View Subscription Plans</a>
+      <a href="#checkout" onclick="pickPlan('Free Demo Clip')" class="px-7 py-3.5 rounded-xl border border-white/20 hover:bg-white/10 font-semibold transition">Get 1 Free Sample Clip</a>
+    </div>
+  </section>
+
+  <section id="features" class="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-6">
+    <div class="card p-6 rounded-2xl"><div class="text-amber-400 font-bold text-xs mb-1">01 // AI HOOK ENGINE</div><h3 class="text-lg font-bold">Auto Viral Moment Detection</h3><p class="text-slate-400 text-sm mt-2">Long stream ya podcast link daalo — AI high-retention 30–60 sec clips khud cut karta hai.</p></div>
+    <div class="card p-6 rounded-2xl"><div class="text-amber-400 font-bold text-xs mb-1">02 // HINGLISH + ENGLISH</div><h3 class="text-lg font-bold">Dynamic Retention Captions</h3><p class="text-slate-400 text-sm mt-2">Clean 9:16 reframing aur word-by-word animated captions jo watch-time double karte hain.</p></div>
+    <div class="card p-6 rounded-2xl"><div class="text-amber-400 font-bold text-xs mb-1">03 // AUTO-POSTING</div><h3 class="text-lg font-bold">Zero-Touch Upload Pipeline</h3><p class="text-slate-400 text-sm mt-2">YouTube Shorts aur Reels ke liye title, tags aur scheduled publishing automated.</p></div>
+  </section>
+
+  <section id="pricing" class="max-w-6xl mx-auto px-6 py-12">
+    <h2 class="text-3xl font-bold text-center mb-10">Simple, High-ROI Plans</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card p-7 rounded-2xl flex flex-col justify-between">
+        <div><span class="text-xs font-bold uppercase text-sky-400">Creator SaaS</span><h3 class="text-2xl font-bold mt-1">Monthly Plan</h3><div class="mt-4"><span class="text-4xl font-bold">₹999</span><span class="text-slate-400 text-sm">/month</span></div><ul class="mt-5 space-y-2 text-sm text-slate-300"><li>✓ Unlimited AI Viral Clip Detection</li><li>✓ Hinglish & English Captions</li><li>✓ 9:16 Auto-Reframing + Updates</li></ul></div>
+        <button onclick="pickPlan('Creator SaaS Monthly')" class="mt-7 w-full py-3 rounded-xl bg-white/10 hover:bg-white/20 font-bold">Subscribe ₹999/mo</button>
+      </div>
+      <div class="p-7 rounded-2xl flex flex-col justify-between border-2 border-amber-400 bg-gradient-to-b from-amber-500/15 to-slate-950 relative">
+        <span class="absolute -top-3 right-5 px-3 py-0.5 rounded-full bg-amber-400 text-black text-xs font-bold">MOST POPULAR</span>
+        <div><span class="text-xs font-bold uppercase text-amber-400">Pro License</span><h3 class="text-2xl font-bold mt-1">One-Time License</h3><div class="mt-4"><span class="text-4xl font-bold">₹2,999</span><span class="text-slate-400 text-sm"> one-time</span></div><ul class="mt-5 space-y-2 text-sm text-slate-200"><li>✓ Full Local GPU Clipping Engine</li><li>✓ Playwright Auto-Upload Pipeline</li><li>✓ Lifetime Updates + Setup Support</li></ul></div>
+        <button onclick="pickPlan('Pro One-Time License')" class="cta mt-7 w-full py-3 rounded-xl text-black font-bold">Get License ₹2,999</button>
+      </div>
+      <div class="card p-7 rounded-2xl flex flex-col justify-between">
+        <div><span class="text-xs font-bold uppercase text-emerald-400">Done-For-You Agency</span><h3 class="text-2xl font-bold mt-1">Monthly Retainer</h3><div class="mt-4"><span class="text-4xl font-bold">₹20,000</span><span class="text-slate-400 text-sm">/mo ($400 US)</span></div><ul class="mt-5 space-y-2 text-sm text-slate-300"><li>✓ Daily 1–2 Viral Shorts/Reels</li><li>✓ Custom Branding + Viral Hooks</li><li>✓ Auto-Posting on YT, IG & X</li></ul></div>
+        <button onclick="pickPlan('Done-For-You Agency Retainer')" class="mt-7 w-full py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-black font-bold">Book Agency Slot</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="checkout" class="max-w-2xl mx-auto px-6 py-12">
+    <div class="card p-8 rounded-2xl">
+      <h2 class="text-2xl font-bold">Activate Subscription / Request Free Demo</h2>
+      <p class="text-slate-400 text-sm mt-1">Encrypted checkout request — instant License ID & confirmation.</p>
+      <form id="signupForm" class="mt-6 space-y-4">
+        <input id="hpField" name="website_url" type="text" autocomplete="off" tabindex="-1" class="hidden" aria-hidden="true" />
+        <div class="grid md:grid-cols-2 gap-4">
+          <input id="cName" required minlength="2" maxlength="80" placeholder="Your Name / Channel Name" class="w-full px-4 py-3 rounded-xl bg-black/60 border border-white/15 outline-none focus:border-amber-400" />
+          <input id="cEmail" type="email" required maxlength="100" placeholder="Email Address" class="w-full px-4 py-3 rounded-xl bg-black/60 border border-white/15 outline-none focus:border-amber-400" />
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <input id="cPhone" required minlength="5" maxlength="40" placeholder="WhatsApp / Telegram Handle" class="w-full px-4 py-3 rounded-xl bg-black/60 border border-white/15 outline-none focus:border-amber-400" />
+          <select id="cPlan" class="w-full px-4 py-3 rounded-xl bg-black/85 border border-white/15 outline-none focus:border-amber-400">
+            <option value="Creator SaaS Monthly">Creator SaaS — ₹999/month</option>
+            <option value="Pro One-Time License" selected>Pro License — ₹2,999 one-time</option>
+            <option value="Done-For-You Agency Retainer">Done-For-You Agency — ₹20,000/month</option>
+            <option value="Python/Excel Automation Project">Custom Python/Playwright Automation</option>
+            <option value="Free Demo Clip">1 Free Sample Clip</option>
+          </select>
+        </div>
+        <button id="submitBtn" type="submit" class="cta w-full py-3.5 rounded-xl font-bold text-black text-base transition">Confirm & Generate License ID</button>
+      </form>
+      <div id="resultBox" class="hidden mt-5 p-4 rounded-xl bg-emerald-500/15 border border-emerald-400/40 text-emerald-200 text-sm space-y-2"></div>
+    </div>
+  </section>
+
+  <footer class="text-center py-8 text-xs text-slate-500 border-t border-white/5">© 2026 FreeClipper AI & Digital Dream Creations. Secured & Managed by J.A.R.V.I.S. V8.</footer>
+
+  <script>
+    const API_ENDPOINT = "https://jarvis-cloud-brain-cxho.onrender.com/api/saas/signup";
+    const PAYMENT_LINK = "";
+    const TG_BOT = "BotFather";
+    function pickPlan(name) { document.getElementById("cPlan").value = name; document.getElementById("checkout").scrollIntoView({ behavior: "smooth" }); }
+    document.getElementById("signupForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const btn = document.getElementById("submitBtn"), box = document.getElementById("resultBox");
+      btn.disabled = true; box.classList.remove("hidden"); box.textContent = "Securing your license request...";
+      const payload = { name: document.getElementById("cName").value.trim(), email: document.getElementById("cEmail").value.trim(), phone: document.getElementById("cPhone").value.trim(), plan: document.getElementById("cPlan").value, website_url: document.getElementById("hpField").value };
+      try {
+        const res = await fetch(API_ENDPOINT, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.detail || "Request failed");
+        box.textContent = "";
+        const l1 = document.createElement("div"); l1.className = "font-bold"; l1.textContent = "Request Confirmed! License ID: " + (data.license_key || "PENDING");
+        const l2 = document.createElement("div"); l2.textContent = data.message || "Confirmation sent.";
+        box.append(l1, l2);
+        if (PAYMENT_LINK && payload.plan !== "Free Demo Clip") {
+          const a = document.createElement("a"); a.href = PAYMENT_LINK; a.target = "_blank"; a.rel = "noopener noreferrer";
+          a.className = "inline-block mt-2 px-4 py-2 rounded-lg bg-amber-400 text-black font-bold"; a.textContent = "Complete Payment (UPI / Card) →"; box.appendChild(a);
+        }
+      } catch (err) {
+        box.textContent = "Notice: " + err.message;
+        if (TG_BOT) { const a = document.createElement("a"); a.href = "https://t.me/" + TG_BOT; a.target = "_blank"; a.rel = "noopener noreferrer"; a.className = "block underline text-amber-300 font-bold mt-1"; a.textContent = "Instant Telegram Support →"; box.appendChild(a); }
+      } finally { btn.disabled = false; }
+    });
+  </script>
+</body>
+</html>
